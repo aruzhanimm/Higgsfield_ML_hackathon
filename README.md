@@ -100,6 +100,19 @@ Both models are trained with `learning_rate=0.03`, `n_estimators=3000` with earl
 
 ---
 
+## Visualizations
+
+### Bank Reliability
+![Bank Reliability Analysis](images/bank_reliability.png)
+
+### Churn Decision Pathway
+![Churn Decision Tree](images/churn_decision_tree.png)
+
+### Top Churn Drivers
+![Top Churn Drivers](images/top_churn_drivers.png)
+
+---
+
 ## Explainability
 
 The pipeline includes a per-user explanation engine (`explain_user()`) that:
