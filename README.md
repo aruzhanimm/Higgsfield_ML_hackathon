@@ -1,8 +1,8 @@
-#The Retention Architect — HackNU 2026
+# The Retention Architect — HackNU 2026
 
 **Higgsfield DS Challenge** — A production-grade churn prediction system that distinguishes **Voluntary Churn** (user-initiated cancellation) from **Involuntary Churn** (payment failures), built with an OOT-safe architecture designed to generalize beyond the training period.
 
-##Results
+## Results
 
 | Metric | Score |
 |---|---|
