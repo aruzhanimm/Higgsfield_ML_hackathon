@@ -103,10 +103,10 @@ Both models are trained with `learning_rate=0.03`, `n_estimators=3000` with earl
 ## Visualizations
 
 ### Bank Reliability
-![Bank Reliability Analysis](images/bank_reliability.png)
+![Bank Reliability Analysis](images/bank_reliability_map.png)
 
 ### Churn Decision Pathway
-![Churn Decision Tree](images/churn_decision_tree.png)
+![Churn Decision Tree](images/churn_decision_pathway.png)
 
 ### Top Churn Drivers
 ![Top Churn Drivers](images/top_churn_drivers.png)
