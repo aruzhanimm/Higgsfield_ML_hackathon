@@ -23,7 +23,7 @@ The core design principle is **Out-of-Time (OOT) safety** — every feature, enc
 
 ---
 
-## Feature Engineering — 6 Data Sources, 80+ Features
+## Feature Engineering — 6 Data Sources, 0+ Features
 
 ### Properties
 Subscription metadata converted to OOT-safe signals: `plan_tier` (ordinal), `country_tier` (risk bucketing into 3 tiers), behavioral signup flags (`sub_start_is_weekend`, `sub_start_is_night`). Raw dates are discarded after computing relative timespans.
