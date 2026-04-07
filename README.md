@@ -23,7 +23,7 @@ The core design principle is **Out-of-Time (OOT) safety** — every feature, enc
 
 ---
 
-## Feature Engineering — 6 Data Sources, 0+ Features
+## Feature Engineering — 6 Data Sources, 90+ Features
 
 ### Properties
 Subscription metadata converted to OOT-safe signals: `plan_tier` (ordinal), `country_tier` (risk bucketing into 3 tiers), behavioral signup flags (`sub_start_is_weekend`, `sub_start_is_night`). Raw dates are discarded after computing relative timespans.
@@ -97,19 +97,6 @@ Both models are trained with `learning_rate=0.03`, `n_estimators=3000` with earl
 ### Notable Observations
 - Subscription plan tier has near-zero predictive power (uniform class distribution across all plans)
 - Individual feature mutual information is low (max MI ≈ 0.035) — the model's strength comes from capturing feature interactions, not standalone signals
-
----
-
-## Visualizations
-
-### Bank Reliability
-![Bank Reliability Analysis](images/bank_reliability.png)
-
-### Churn Decision Pathway
-![Churn Decision Tree](images/churn_decision_tree.png)
-
-### Top Churn Drivers
-![Top Churn Drivers](images/top_churn_drivers.png)
 
 ---
 
